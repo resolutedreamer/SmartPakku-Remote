@@ -1,0 +1,38 @@
+<!-- index.html-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html"
+	charset=ISO-8859-1">
+	<title>SmartPakku Remote Access Page</title>
+	<link rel="stylesheet" type="text/css" href="submenustyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald'
+		rel='stylesheet' type='text/css'>	
+	<script src="https://code.jquery.com/jquery-2.1.1.js"></script>	
+	<script>		
+	$(document).ready(function()
+	{
+
+	});
+	</script>	
+</head>
+
+<body>
+	<div id = "grad">
+		<div id ="pagetitle" >
+			<h1 class = "R_title"> SmartPakku Remote Access Page</h1>
+		</div>
+		<div id="page">
+			<form action="index2.php" method="post" id="keyform">
+			  Private Key: <input type="text" name="privatekey"><br>
+			</form>
+			<button type="submit" form="keyform" value="Submit">Submit</button>
+		</div>
+	</div>
+</body>
+
+<footer>
+Copyright 2015 Anthony Nguyen 
+</footer>
+
+</html>
